@@ -1,108 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
-	<title>Beranda</title>
-	<style>
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333;
-		}
+  <meta charset="utf-8">
+  <title>login</title>
+  <link rel="stylesheet" href="style.css">
 
-		li {
-			float: right;
-		}
-
-		li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
-
-		li a:hover {
-			background-color: #111;
-		}
-
-		#logo {
-			width: 45px;
-			height: 45px;
-			background: url('gambar/logo.png') 0 0;
-		}
-
-		div.gallery {
-			margin: 5px;
-			border: 1px solid #ccc;
-			float: left;
-			width: 100px;
-			background: white;
-		}
-
-		div.gallery:hover {
-			border: 1px solid #777;
-		}
-
-		div.gallery img {
-			width: 100px;
-			height: 100px;
-		}
-
-		div.desc {
-			padding: 15px;
-			text-align: center;
-			background: #D980FA;
-		}
-
-		body{
-			background: url('gambar/bg.jpg');
-		}
-
-		.wrapper {
-			text-align: center;
-		}
-
-	</style>
 </head>
 <body>
-	<!-- Menu Navigasi Atas -->
-	<ul>
-		<li style="float: left;" id="logo"></li>
-		<li><a href="login.html">Galery</a></li>
-		<li><a href="login.html">Setting</a></li>
-		<li><a href="login.html">Home</a></li>
-	</ul>
-	<!-- Menu Navigasi Atas -->
-	
+  <header>
+    <li style="float: left;" id="logo"></li>
+    <div class="menu-toggle"></div>
+<nav>
+  <ul>
+    <li><a href="login.html" >Home</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+    <li><a href="daftar.html"class="active">Sign Up</a></li>
+  </ul>
+</nav>
+ <div class="clearfix"></div>
+</header>
+    <div class="login">
+      <div class="avatar">
+        <i class="b"></i>
+      </div>
+      <h2>Register</h2>
+      <div class="box-login">
+        <i class="c"></i>
+        <input type="email" placeholder="Masukkan Username">
+      </div>
 
-	<div style="text-align: center;">
-		<form style="margin-top: 100px;">
-			<label>Masukkan Nama</label>
-			<input type="text" name="nama">
-			<br>
-			<br>
-			<br>
-			<label>Masukkan Alamat</label>
-			<input type="text" name="nama">
-			<br>
-			<br>
-			<br>
-			<label>Masukkan Email</label>
-			<input type="text" name="nama">
-			<br>
-			<br>
-			<br>
-			<label>Masukkan password</label>
-			<input type="password" name="nama">
-			<br>
-			<br>
-			<br>
-			<button><a href="login.html" style="text-decoration: none;">Daftar</a></button>
-		</form>
-	</div>
-	
+      <div class="box-login">
+        <i class="d"></i>
+        <input type="password" placeholder="Masukkan password">
+      </div>
 
-</body>
+      <div class="box-login">
+        <i class="d"></i>
+        <input type="text" placeholder="Masukkan Nama Lengkap">
+      </div>
+
+      <div class="box-login">
+        <i class="d"></i>
+        <input type="text" placeholder="Alamat">
+      </div>
+
+      <div class="box-login">
+        <i class="d"></i>
+        <input type="text" placeholder="No Telepon">
+      </div>
+
+      <a href="index.html">
+      <button type="submit" class="btn-login">
+        Simpan
+      </button>
+
+      <a href="login.html">
+      <button type="submit" class="btn-login">
+        Kembali
+      </button>
+
+
+  </body>
 </html>
