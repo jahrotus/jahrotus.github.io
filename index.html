@@ -1,101 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Beranda</title>
-	<style>
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333;
-		}
-
-		li {
-			float: right;
-		}
-
-		li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
-
-		li a:hover {
-			background-color: #111;
-		}
-
-		#logo {
-			width: 45px;
-			height: 45px;
-			background: url('gambar/logo.png') 0 0;
-		}
-
-		div.gallery {
-			margin: 5px;
-			border: 1px solid #ccc;
-			float: left;
-			width: 100px;
-			background: white;
-		}
-
-		div.gallery:hover {
-			border: 1px solid #777;
-		}
-
-		div.gallery img {
-			width: 100px;
-			height: 100px;
-		}
-
-		div.desc {
-			padding: 15px;
-			text-align: center;
-			background: #D980FA;
-		}
-
-		body{
-			background: url('gambar/bg.jpg');
-		}
-
-		.wrapper {
-			text-align: center;
-		}
-
-	</style>
+	<title>Peje's Tailor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="gambar/logo.png" />
 </head>
 <body>
-	<!-- Menu Navigasi Atas -->
-	<ul>
-		<li style="float: left;" id="logo"></li>
-		<li><a class="active" href="login.html"><img src="gambar/akun.png" style="width: 20px; height: 20px;"> Logout</a></li>
-		<li><a href="galery.html">Galery</a></li>
-		<li><a href="#">Setting</a></li>
-		<li><a href="index.html">Home</a></li>
-	</ul>
-	<!-- Menu Navigasi Atas -->
-	
+	<div class="wrap">
+		<!-- bagian menu		 -->
+		<nav class="menu">
+			<ul>
+				<li style="float: left; padding-left: 1vw; padding-top: 0.8vw; padding-right: 1vw;">
+					<img src="gambar/logo.png">
+				</li>
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About Us</a>
+				</li>
+				<li>
+					<a href="signup.html">Sign Up</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- akhir bagian menu -->
 
-	<div class="gallery">
-		<a target="_blank" href="gambar/akun.png">
-			<img src="gambar/akun.png" width="600" height="400">
-		</a>
-		<div class="desc">
-			Bu Lia 
+		<!-- bagian konten Blog -->
+		<div class="blog">
+			<!-- Form login -->
+			<form name="registerForm" onsubmit="validasi()">
+				<div class="login">
+					<div class="avatar">
+						<i class="b"></i>
+					</div>
+					<h2>Login Form</h2>
+					<div class="box-login">
+						<i class="c"></i>
+						<input name="email" type="email" placeholder="Masukkan Email">
+					</div>
+
+					<div class="box-login">
+						<i class="d"></i>
+						<input name="password" type="password" placeholder="Masukkan password">
+					</div>
+
+					<a href="admin/index.html">
+						<button type="submit" class="btn-login">
+							login
+						</button>
+					</a>
+				</div>
+				<!-- Form login -->
+			</form>
+			<a href="admin/index.html">
+				<button style="margin: 0px auto;">
+					login admin
+				</button>
+			</a>
 		</div>
 	</div>
-
-	<div style="text-align: center;">
-		<button style="margin-top: 100px; margin-right: 100px;"><a href="galery.html" style="text-decoration: none; color: black;">Jahit (Pesan)</a></button>
-		<br>
-		<br>
-		<button style="margin-top: 100px; margin-right: 100px;"><a href="galery.html" style="text-decoration: none; color: black;">Model dan Harga</a></button>
-		<br>
-		<button style="margin-top: 100px; margin-left: 20px;"><a href="galery.html" style="text-decoration: none; color: black;">Jenis Kain</a></button>
-	</div>
-	
-
 </body>
+<script>
+	function validasi() {
+		var email = document.forms["registerForm"]["email"];               
+		var password = document.forms["registerForm"]["password"];    
+
+		if (email.value == "")                                   
+		{ 
+			window.alert("Tolong isi email anda"); 
+			email.focus(); 
+			return false; 
+		} 
+		if (password.value == "")                        
+		{ 
+			window.alert("tolong masukkan password anda"); 
+			password.focus(); 
+			return false; 
+		} 
+
+
+		return true; 
+	}
+</script>
 </html>
