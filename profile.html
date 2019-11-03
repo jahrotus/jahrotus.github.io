@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Peje's Tailor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="gambar/logo.png" />
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- bagian menu		 -->
+      <nav class="menu">
+        <ul>
+          <li style="float: left; padding-left: 1vw; padding-top: 0.8vw; padding-right: 1vw;">
+            <img src="gambar/logo.png">
+          </li>
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li  class="active">
+            <a href="profile.html">Profile</a>
+          </li>
+          <li>
+            <a href="admin/gallery.html">Galerry</a>
+          </li>
+        </ul>
+      </nav>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <h2>PEJE'S TAILOR</h2>
+        <ul>
+          <li><a href="#"><span class="fas fa-clipboard"></span>Jahit/Pesan</a></li>
+          <li><a href="#"><span class="fas fa-money-bill-wave"></span>Harga</a></li>
+          <li><a href="#"><span class="fas fa-tshirt"></span>Jenis Kain</a></li>
+        </ul>
+      </div>
+
+    </div>
+  <!-- akhir bagian sidebar website -->
+  <div class="blog">
+    <div class="login">
+      <div class="avatar">
+        <i class="b"></i>
+      </div>
+      <form name="registerForm" onsubmit="validasi()">
+        <h2>Data Diri</h2>
+        <div class="box-login">
+          <i class="c"></i>
+          <textarea name="Username" rows="1" cols="80" >Username    : Aprilia</textarea>
+        </div>
+
+        <div class="box-login">
+          <i class="d"></i>
+          <textarea name="password" rows="1" cols="80" >Password    : Prili</textarea>
+        </div>
+
+        <div class="box-login">
+          <i class="d"></i>
+          <textarea name="NL" rows="1" cols="80" >Nama Lengkap : Aprilia Puspita</textarea>
+        </div>
+
+        <div class="box-login">
+          <i class="d"></i>
+        <textarea name="Alamat" rows="3" cols="80" >Alamat       : Kunir Lor</textarea>
+        </div>
+
+        <div class="box-login">
+          <i class="d"></i>
+          <textarea name="Telp" rows="1" cols="80" >Telepon : 089264756775</textarea>
+        </div>
+
+        <button class="modalbutton" id="myBtn">Ubah</button>
+          <div class="product">
+        <!-- <a href="index.html">
+          <button id="daftar" type="submit" class="btn-login">
+            Ubah
+          </button> -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="ubah">
+              <span class="close">&times;</span>
+              <form class="" action="ho.php" method="post">
+
+                <br>
+                <div class="padding-login" >
+                  <label for="username"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+
+                  <label for="password"><b>Password</b></label>
+                  <input type="password" placeholder="Enter password" name="uname" required>
+
+                  <label for="nl"><b>Nama lengkap</b></label>
+                  <input type="text" placeholder="Enter nama lengkap" name="uname" required>
+
+                  <label for="Alamat"><b>Alamat</b></label>
+                  <input type="text" placeholder="Enter Alamat" name="psw" required>
+
+                  <label for="Alamat"><b>telepon</b></label>
+                  <input type="text" placeholder="Enter Alamat" name="psw" required>
+
+              <button class="buttonmodal" type="submit">Save</button>
+                </div>
+              </form>
+            </div>
+            <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+
+            </script>
+          </div>
+      </form>
+
+
+
+
+  </body>
+</html>
