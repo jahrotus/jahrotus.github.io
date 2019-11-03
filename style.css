@@ -10,7 +10,11 @@ hr {
 	border:0;
 	background:#dedede;
 	height:1px;
+<<<<<<< HEAD
 }
+=======
+}		
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 
 header{
 	text-align: center;
@@ -135,7 +139,11 @@ nav.menu ul a:hover {
 	color:#000;
 	transition: all 0.5s ease;
 	text-decoration: none;
+<<<<<<< HEAD
 	font-weight: 700;
+=======
+	font-weight: 700; 
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 }
 
 .konten .continue-lendo:hover {
@@ -223,7 +231,11 @@ nav.menu ul a:hover {
 
 .btn-login:hover{
 	background: rgba(0, 0, 0, 0.8);
+<<<<<<< HEAD
 }
+=======
+}	
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 
 @media screen and (max-width: 960px) {
 
@@ -274,7 +286,11 @@ nav.menu ul a:hover {
 		margin:0 auto 25px;
 		width:101%;
 		border:1px solid #dedede;
+<<<<<<< HEAD
 		padding:5%;
+=======
+		padding:5%;  
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 		background: #fff;
 	}
 
@@ -363,7 +379,11 @@ nav.menu ul a:hover {
 
 	.btn-login:hover{
 		background: rgba(0, 0, 0, 0.8);
+<<<<<<< HEAD
 	}
+=======
+	}	
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 
 
 }
@@ -464,7 +484,11 @@ nav.menu ul a:hover {
 
 	.btn-login:hover{
 		background: rgba(0, 0, 0, 0.8);
+<<<<<<< HEAD
 	}
+=======
+	}			
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 }
 
 li.active{
@@ -488,7 +512,11 @@ div.gallery {
 	margin-top: 30px;
 	border: 1px solid #ccc;
 	float: left;
+<<<<<<< HEAD
 	width: 230px;
+=======
+	width: 180px;
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 	background: white;
 }
 
@@ -531,8 +559,12 @@ div.akun img {
 	border: 1px solid #ccc;
 	float: left;
 	width: 150px;
+<<<<<<< HEAD
 	height: auto;
 	background: #F0FFF0;
+=======
+	background: white;
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
 	position: center;
 }
 
@@ -595,6 +627,7 @@ div.akun img {
 	background: rgba(0, 0, 0, 0.8);
 }
 
+<<<<<<< HEAD
 {
     background: url(bg.jpg);
     background-size: cover;
@@ -716,3 +749,5 @@ p
 
 
 	}
+=======
+>>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
