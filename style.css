@@ -10,15 +10,7 @@ hr {
 	border:0;
 	background:#dedede;
 	height:1px;
-<<<<<<< HEAD
-}
-=======
-<<<<<<< HEAD
-}
-=======
 }		
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 
 header{
 	text-align: center;
@@ -143,15 +135,9 @@ nav.menu ul a:hover {
 	color:#000;
 	transition: all 0.5s ease;
 	text-decoration: none;
-<<<<<<< HEAD
 	font-weight: 700;
-=======
-<<<<<<< HEAD
 	font-weight: 700;
-=======
-	font-weight: 700; 
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
+	font-weight: 700;
 }
 
 .konten .continue-lendo:hover {
@@ -239,15 +225,8 @@ nav.menu ul a:hover {
 
 .btn-login:hover{
 	background: rgba(0, 0, 0, 0.8);
-<<<<<<< HEAD
-}
-=======
-<<<<<<< HEAD
-}
-=======
+
 }	
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 
 @media screen and (max-width: 960px) {
 
@@ -298,15 +277,9 @@ nav.menu ul a:hover {
 		margin:0 auto 25px;
 		width:101%;
 		border:1px solid #dedede;
-<<<<<<< HEAD
 		padding:5%;
-=======
-<<<<<<< HEAD
 		padding:5%;
-=======
 		padding:5%;  
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 		background: #fff;
 	}
 
@@ -395,18 +368,7 @@ nav.menu ul a:hover {
 
 	.btn-login:hover{
 		background: rgba(0, 0, 0, 0.8);
-<<<<<<< HEAD
-	}
-=======
-<<<<<<< HEAD
-	}
-=======
 	}	
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
-
-
-}
 
 @media screen and (max-width: 460px) {
 
@@ -504,15 +466,6 @@ nav.menu ul a:hover {
 
 	.btn-login:hover{
 		background: rgba(0, 0, 0, 0.8);
-<<<<<<< HEAD
-	}
-=======
-<<<<<<< HEAD
-	}
-=======
-	}			
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 }
 
 li.active{
@@ -536,15 +489,9 @@ div.gallery {
 	margin-top: 30px;
 	border: 1px solid #ccc;
 	float: left;
-<<<<<<< HEAD
 	width: 230px;
-=======
-<<<<<<< HEAD
 	width: 230px;
-=======
 	width: 180px;
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 	background: white;
 }
 
@@ -556,16 +503,11 @@ div.gallery img {
 	width: 100%;
 	height: 250px;
 }
-
-<<<<<<< HEAD
-
-=======
 div.desc {
 	padding: 15px;
 	text-align: center;
 	background: #D980FA;
 }
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 div.akun {
 	margin: 5px;
 	margin-left: 50px;
@@ -587,24 +529,18 @@ div.akun img {
 
 .main_content{
 	margin-top: 10vw;
-<<<<<<< HEAD
 	margin-left: 50vw;
 	border: 1px solid #ccc;
 	width: 150px;
 	height: auto;
 	background: #F0FFF0;
-=======
 	margin-left: 55vw;
 	border: 1px solid #ccc;
 	float: left;
 	width: 150px;
-<<<<<<< HEAD
 	height: auto;
 	background: #F0FFF0;
-=======
 	background: white;
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 	position: center;
 }
 
@@ -665,12 +601,7 @@ div.akun img {
 
 .btn:hover{
 	background: rgba(0, 0, 0, 0.8);
-}
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
 {
     background: url(bg.jpg);
     background-size: cover;
@@ -792,8 +723,4 @@ p
 
 
 	}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 1552c5748096665d83840bd2c8c3bdfdd6bfbf41
->>>>>>> e0e752ca49bdc8b731a5bdf5bd481e1dcdd48b26
+
