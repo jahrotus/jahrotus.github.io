@@ -30,6 +30,10 @@
 		<!-- bagian konten Blog -->
 		<div class="blog">
 			<!-- Form login -->
+<<<<<<< HEAD
+=======
+
+>>>>>>> aae898b0c03ee7ec9233a23636a7add0e25ff0ef
 			<form name="registerForm" onsubmit="validasi()">
 				<div class="login">
 					<div class="avatar">
@@ -84,3 +88,54 @@
 	}
 </script>
 </html>
+<<<<<<< HEAD
+=======
+
+		var email = document.forms["registerForm"]["email"];               
+		var password = document.forms["registerForm"]["password"];    
+
+		if (email.value == "")                                   
+		{ 
+			window.alert("Tolong isi email anda"); 
+			email.focus(); 
+			return false; 
+		} 
+		if (password.value == "")                        
+		{ 
+			window.alert("tolong masukkan password anda"); 
+			password.focus(); 
+			return false; 
+		} 
+
+
+		return true; 
+	}
+</script>
+
+			<div class="login">
+				<div class="avatar">
+					<i class="b"></i>
+				</div>
+				<h2>Login Form</h2>
+				<div class="box-login">
+					<i class="c"></i>
+					<input type="email" placeholder="Masukkan Email">
+				</div>
+
+				<div class="box-login">
+					<i class="d"></i>
+					<input type="password" placeholder="Masukkan password">
+				</div>
+
+				<a href="admin/index.html">
+					<button type="submit" class="btn-login">
+						login
+					</button>
+				</a>
+			</div>
+			<!-- Form login -->
+		</div>
+	</div>
+</body>
+</html>
+>>>>>>> aae898b0c03ee7ec9233a23636a7add0e25ff0ef
