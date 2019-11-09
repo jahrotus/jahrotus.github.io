@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peje's Tailor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="gambar/logo.png" />
+</head>
+<body>
+	<div class="wrap">
+		<!-- bagian menu		 -->
+		<nav class="menu">
+			<ul>
+				<li style="float: left; padding-left: 1vw; padding-top: 0.8vw; padding-right: 1vw;">
+					<img src="gambar/logo.png">
+				</li>
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About Us</a>
+				</li>
+				<li>
+					<a href="signup.html">Sign Up</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- akhir bagian menu -->
+
+		<!-- bagian konten Blog -->
+		<div class="blog">
+			<!-- Form login -->
+			<form name="registerForm" onsubmit="validasi()">
+				<div class="login">
+					<div class="avatar">
+						<i class="b"></i>
+					</div>
+					<h2>Login Form</h2>
+					<div class="box-login">
+						<i class="c"></i>
+						<input name="email" type="email" placeholder="Masukkan Email">
+					</div>
+
+					<div class="box-login">
+						<i class="d"></i>
+						<input name="password" type="password" placeholder="Masukkan password">
+					</div>
+					<a href="opening.html">
+					<a href="opening.html">
+					<a href="admin/index.html">
+						<button type="submit" class="btn-login">
+							login
+						</button>
+					</a>
+				</div>
+				<!-- Form login -->
+			</form>
+			<a href="admin/index.html">
+				<button style="margin: 0px auto;">
+					login admin
+				</button>
+			</a>
+		</div>
+	</div>
+</body>
+<script>
+	function validasi() {
+		var email = document.forms["registerForm"]["email"];
+		var password = document.forms["registerForm"]["password"];
+
+		if (email.value == "")
+		{
+			window.alert("Tolong isi email anda");
+			email.focus();
+			return false;
+		}
+		if (password.value == "")
+		{
+			window.alert("tolong masukkan password anda");
+			password.focus();
+			return false;
+		}
+		return true;
+	}
+</script>
+</html>
