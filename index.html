@@ -45,9 +45,9 @@
 						<i class="d"></i>
 						<input name="password" type="password" placeholder="Masukkan password">
 					</div>
+					<!-- <a href="Home.html">
+					<a href="admin/index.html"> -->
 					<a href="home.html">
-					<a href="Home.html">
-					<a href="admin/index.html">
 						<button type="submit" class="btn-login">
 							login
 						</button>
@@ -55,7 +55,7 @@
 				</div>
 				<!-- Form login -->
 			</form>
-			<a href="admin/index.html">
+			<a href="admin/indexAdmin.html">
 				<button style="margin: 0px auto;">
 					login admin
 				</button>
@@ -68,7 +68,7 @@
 		var username = document.forms["registerForm"]["username"];
 		var password = document.forms["registerForm"]["password"];
 
-		if (email.value == "")
+		if (username.value == "")
 		{
 			window.alert("Tolong isi username anda");
 			email.focus();
