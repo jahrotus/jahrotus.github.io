@@ -30,7 +30,7 @@
 		<!-- bagian konten Blog -->
 		<div class="blog">
 			<!-- Form login -->
-			<form name="registerForm" onsubmit="validasi()">
+			<form name="registerForm" onsubmit="return validasi()">
 				<div class="login">
 					<div class="avatar">
 						<i class="b"></i>
@@ -60,27 +60,19 @@
 					login admin
 				</button>
 			</a>
+			<div id="popup-berhasil">
+				<span class="icon ion-md-checkmark"></span>
+				<h1>Anda Berhasil Login</h1><br><br>
+				<a onclick="lanjut()" class="tutup">Oke</a>
+			</div>
+			<div id="popup-gagal">
+				<span class="icon ion-md-close-circle-outline"></span>
+				<h1>Usename atau Password Salah</h1><br><br>
+				<a onclick="gagal()" class="tutup">Kembali</a>
+			</div>
 		</div>
 	</div>
 </body>
-<script>
-	function validasi() {
-		var username = document.forms["registerForm"]["username"];
-		var password = document.forms["registerForm"]["password"];
-
-		if (username.value == "")
-		{
-			window.alert("Tolong isi username anda");
-			email.focus();
-			return false;
-		}
-		if (password.value == "")
-		{
-			window.alert("tolong masukkan password anda");
-			password.focus();
-			return false;
-		}
-		return true;
-	}
-</script>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/peje.js"></script>
 </html>

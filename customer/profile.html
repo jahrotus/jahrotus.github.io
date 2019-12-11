@@ -46,11 +46,18 @@
   <!-- akhir bagian sidebar website -->
   <div class="blog">
     <div class="login">
-      <div class="avatar">
-        <i class="b"></i>
+      <div class="bingkai-foto">
+          <a>
+              <img class="img" id="gambarpreview" src="../gambar/pp.jpg"/>
+          </a>
       </div>
-      <form name="registerForm" onsubmit="validasi()">
+      <form>
         <h2>Data Diri</h2>
+
+        <div class="box-login">
+          <input type="file" id="ingambar" name="foto" id="ingambar" class="inputgambar" accept="image/*">
+        </div>
+
         <div class="box-login">
           <i class="c"></i>
           <textarea name="Username" rows="1" cols="80" >Username    : Aprilia</textarea>
@@ -140,9 +147,7 @@
             </script>
           </div>
       </form>
-
-
-
-
   </body>
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="../js/peje.js"></script>
 </html>
